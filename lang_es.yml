@@ -1,0 +1,33 @@
+# MeteorLoot lang_es.yml (Español) [Translated by BlahBerrys via Google Translate]
+#(http://minecraft.gamepedia.com/Formatting_codes)
+
+PLUGIN:
+  error: '&7Ha ocurrido un error inesperado! Por favor notifique a un administrador para comprobar el registro para obtener más información.'
+  repair: '&7Con éxito repaired @FIXED bloques!'
+  reload: '&7Config Reloaded, esquemas personalizados, y el enchufe configuraciones!'
+  inProgress: '&7Un meteoro ya está cayendo, por favor espere hasta que se estrella.'
+  noPermission: '&7Usted no tiene permiso para hacer esto!'
+  notEnabled: '&7Meteoros no están habilitadas en este mundo.'
+  checkTime: '&7El próximo meteorito se estrellará into @TIME minuto(s)!'
+  setTime: '&7Un meteorito mundo virtual ahora se estrellará in @TIME minuto(s)'
+  createMeteor: '&Se ha creado un nuevo meteoro. (@NAME)'
+  meteorExist: '&7Un meteoro por el nombre ya of @NAME existe.'
+  spawnMeteor: '&7Meteor se generan en su ubicación dentro de 5 segundos!'
+  claimCurrency: '&7@AMOUNT se ha añadido a tu equilibrio.'
+
+METEOR:
+  chestName: '&7 - &5Meteoro&6Pecho &7-'
+  impact: '&7Un meteorito ha aterrizado at @LOCATION!'
+  broadcastNext: '&7El próximo meteorito caerá in @TIME minuto(s)!'
+  firstLoot: '&7@PLAYER el jugador ya ha abierto el pecho botín!'
+
+SELECTOR:
+  pointA: '&aEstablecer PuntoA. (@LOC)'
+  pointB: '&bEstablecer puntoB. (@LOC)'
+  description: '&7Haz clic izquierdo para el establecer PuntoA, haga clic derecho para establecer PuntoB.'
+  diffWorlds: '&7PuntoA y el PuntoB no pueden estar en diferentes mundos!'
+  samePoints: '&7PuntoA y PuntoB no se pueden establecer en el mismo lugar!'
+  noSelection: '&7No ha hecho una selección! (Para WorldEdit recuerde utilizar //copy)'
+
+# No te cambio
+version: 1

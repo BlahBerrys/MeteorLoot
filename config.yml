@@ -1,0 +1,70 @@
+# MeteorLoot Configuration - Developed by BlahBerrys (ericballard7@gmail.com)
+#  (http://minecraft.gamepedia.com/Formatting_codes)
+# SFX played when meteor crashes ( Acceptable SFX - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html )
+# VFX played when meteor crashes ( Acceptable VFX - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Effect.html )
+
+PLUGIN:
+  saveInterval: 5
+  header: '&5[&8MeteorLoot&5]&7'
+  lang: 'lang_en.yml'
+  selectorID: '392'
+  enabledWorlds:
+    - 'world'
+  FACTIONS:
+    warZone: 'warzone'
+    safeZone: 'safezone'
+
+METEOR:
+  radius: 4
+  hollow: false
+  canMine: false
+  blocks:
+    - '87'
+    - '88'
+  barrierBlocks:
+    - '49'
+  SPAWN:
+    height: 200
+    minTime: 15
+    maxTime: 45
+    minBlocksFromSpawn: 400
+    maxBlocksFromSpawn: 2500
+    shapeCycle:
+      - 'SPHERE'
+  IMPACT:
+    timeTilRepair: 20
+    burrowMultiplier: 5
+    showTimeBar: true
+    broadcastNext: true
+    warnIntervals: '45,30,20,10,5,1'
+    sfx:
+      - 'AMBIENCE_THUNDER'
+      - 'PORTAL'
+    vfx:
+      - 'VOID_FOG'
+      - 'MAGIC_CRIT'
+      - 'PORTAL'
+  EXPLOSION:
+    radius: 8
+    fireChance: 20
+    blockDropChance: 30
+    oresToIngots: true
+  LOOT:
+    minItems: 5
+    maxItems: 20
+    currencyID: '339'
+    items:
+      - 'CURRENCY;1;100;100%'
+      - '276;1;1;30%@NAME=&4Dagger@LORE=&8A short-stubby blade,&- ideal for beheading -@ENCHANTS=KNOCKBACK:3,FIRE_ASPECT:3'
+      - '130;1;1;60%@NAME=&5Death Chest@LORE=&0May this chest hold the secrets of the universe...'
+      - '310;1;1;40%@ENCHANTS=DURABILITY:3,PROTECTION_FIRE:3,THORNS:3'
+      - '311;1;1;40%@ENCHANTS=DURABILITY:3,PROTECTION_FIRE:3,THORNS:3'
+      - '312;1;1;40%@ENCHANTS=DURABILITY:3,PROTECTION_FIRE:3,THORNS:3'
+      - '313;1;1;40%@ENCHANTS=DURABILITY:3,PROTECTION_FIRE:3,THORNS:3'
+      - '403;1;2;50%@LORE=&4Fire &7Enchantment@ENCHANTS=FIRE_ASPECT:3'
+      - '383:67;1;16;50%@LORE=&0Spawned straight from &4hell&0.'
+      - '138;1;1;60%@NAME=&aTower Beacon'
+      - '57;1;8;20%'
+
+# donut
+version: 2

@@ -1,0 +1,12 @@
+# Used for loading factions hooks
+#
+# Format:
+# <built-in hook> <factions version>
+me.blahberrys.meteorloot.managers.factions.Factions16xUU 1.6.U
+me.blahberrys.meteorloot.managers.factions.Factions16x 1.6
+me.blahberrys.meteorloot.managers.factions.Factions18x 1.8.U
+me.blahberrys.meteorloot.managers.factions.Factions18x 1.8
+me.blahberrys.meteorloot.managers.factions.Factions25x 2.5
+me.blahberrys.meteorloot.managers.factions.Factions26x 2.6
+me.blahberrys.meteorloot.managers.factions.Factions27x 2.7
+me.blahberrys.meteorloot.managers.factions.Factions27x 2.8

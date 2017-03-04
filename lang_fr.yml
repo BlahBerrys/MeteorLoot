@@ -1,0 +1,33 @@
+# MeteorLoot lang_fr.yml (Français) [Translated by: @iGoDLiK3 | https://www.spigotmc.org/members/igodlik3.71394/]
+#(http://minecraft.gamepedia.com/Formatting_codes)
+ 
+PLUGIN:
+  error: '&7Une erreur s"est produite ! Contacter un Administrateur!'
+  repair: '&7@FIXED blocks ont étaient régénérer!'
+  reload: '&7Reloaded config.yml and plugin configurations!'
+  inProgress: '&7Une météorite est déjà en cours d"apparition  , veuillez patienter jusqu"au crash.'
+  noPermission: '&7Vous n"avez pas la permission de faire ceci!'
+  notEnabled: '&7Les météorites ne sont pas activiés dans ce monde.'
+  checkTime: '&7La prochaine météorite va apparaître dans @TIME minutes!'
+  setTime: '&7Les météorites dans le monde : @WORLD vont maintenant apparaître toutes les @TIME minutes.'
+  createMeteor: '&7Vous avez créer une nouvelle météorite : (@NAME)'
+  meteorExist: '&7Un météore du nom de @NAME existe déjà.'
+  spawnMeteor: '&7Une météorite va spawn dans 5 secondes à votre localisation!'
+  claimCurrency: '&7@AMOUNT a été ajouté à votre compte'
+
+METEOR:
+  chestName: '&7 - &5Meteor&6Loot &7 -'
+  impact: '&7Une météorite a atterri en : @LOCATION!'
+  broadcastNext: '&7La prochaine météorite va atterrir dans @TIME minutes!'
+  firstLoot: '&7@PLAYER a ouvert le première le coffre de la météorite!'
+ 
+SELECTOR:
+  pointA: '&aRéglez PointA. (@LOC)'
+  pointB: '&bRéglez PointB. (@LOC)'
+  description: 'Clique gauche pour définir le Point A, Clique droit pour définir le PointB.'
+  diffWorlds: '&7Le Point A et le Point B doivent être dans le même monde!'
+  samePoints: '&7Le Point A et le Point B ne doivent pas être au même endroit!'
+  noSelection: '&7Vous n"avez pas fait de sélection! (Pour WorldEdit n"oubliez pas d"utiliser //copy)'
+ 
+# Ne pas modifier
+version: 1

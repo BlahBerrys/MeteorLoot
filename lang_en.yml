@@ -1,0 +1,33 @@
+# MeteorLoot lang_en.yml (English)
+#(http://minecraft.gamepedia.com/Formatting_codes)
+
+PLUGIN:
+  error: '&7An unexpected error has occurred! Please notify an admin to check the log for details.'
+  repair: '&7Successfully repaired @FIXED blocks!'
+  reload: '&7Reloaded config, custom schematics, and plugin configurations!'
+  inProgress: '&7A meteor is already falling, please wait until it crashes.'
+  noPermission: '&7You do not have permission to do this!'
+  notEnabled: '&7Meteors are not enabled in this world.'
+  checkTime: '&7The next meteor will crash in @TIME minute(s)!'
+  setTime: '&7A meteor in @WORLD will now crash in @TIME minute(s).'
+  createMeteor: '&7You have created a new meteor. (@NAME)'
+  meteorExist: '&7A meteor by the name of @NAME already exist.'
+  spawnMeteor: '&7A meteor will spawn at your location in 5 seconds!'
+  claimCurrency: '&7@AMOUNT has been added to you balance.'
+
+METEOR:
+  chestName: '&7 - &5Meteor&6Loot &7-'
+  impact: '&7A meteor has landed at @LOCATION!'
+  broadcastNext: '&7The next meteor will land in @TIME minute(s)!'
+  firstLoot: '&7@PLAYER has opened the loot chest!'
+
+SELECTOR:
+  pointA: '&aSet PointA. (@LOC)'
+  pointB: '&bSet PointB. (@LOC)'
+  description: 'Left click for PointA, Right click for PointB.'
+  diffWorlds: '&7PointA and PointB may not be in different worlds!'
+  samePoints: '&7PointA and PointB may not be set at the same location!'
+  noSelection: '&7You have not made a selection! (For WorldEdit remember to use //copy)'
+
+# Do not change
+version: 1

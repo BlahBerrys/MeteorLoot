@@ -1,0 +1,33 @@
+# MeteorLoot lang_de.yml (Deutsch) [Translated by BlahBerrys via Google Translate]
+#(http://minecraft.gamepedia.com/Formatting_codes)
+
+PLUGIN:
+  error: '&7Ein unerwarteter Fehler ist aufgetreten! Bitte benachrichtigen Sie einen Admin, um das Protokoll für Details zu überprüfen.'
+  repair: '&7Erfolgreich repariert @FIXED Blöcke!'
+  reload: '&7Reloaded Config, kundenspezifische Schaltpläne, und Plugin-Konfigurationen!'
+  inProgress: '&7Ein Meteor ist bereits fällt, bitte warten, bis es abstürzt.'
+  noPermission: '&7Sie haben keine Berechtigung, dies zu tun!'
+  notEnabled: '&7Meteore sind in dieser Welt ermöglicht.'
+  checkTime: '&7Der nächste Meteor wird in @TIME minute(n) abstürzen!'
+  setTime: '&7Ein Meteor in @WORLD wird nun in @TIME minute(n) zum absturz bringen.'
+  createMeteor: '&Sie haben eine neue Meteor erstellt. (NAME)'
+  meteorExist: '&7Ein Meteor namens @NAME bereits existieren.'
+  spawnMeteor: '&7Meteor wird bei Ihnen vor Ort in 5 Sekunden laichen!'
+  claimCurrency: '&7@AMOUNT Wurde hinzugefügt, um Sie zu balancieren.'
+
+METEOR:
+  chestName: '&7 - &5Meteor&6Loot &7-'
+  impact: '&7Ein Meteor hat bei @LOCATION gelandet!'
+  broadcastNext: '&7Der nächste Meteor wird in @TIME minute(n) zu landen!'
+  firstLoot: '&7@PLAYER wurde die Beute der Brust geöffnet!'
+
+SELECTOR:
+  pointA: '&aGesetzt PunktA. (@LOC)'
+  pointB: '&bGesetzt PunktB. (@LOC)'
+  description: '&7Linksklick für pointA der rechten Maustaste für PunktB.'
+  diffWorlds: '&7PunktA und PunktB kann nicht in verschiedenen Welten zu sein!'
+  samePoints: '&7PunktA und PunktB möglicherweise nicht an der Stelle stehen!'
+  noSelection: '&7Sie haben keine Auswahl erstellt! (Für WorldEdit denken Sie daran //copy)'
+
+# Nicht ändern
+version: 1

@@ -1,0 +1,10 @@
+name: MeteorLoot
+main: me.blahberrys.meteorloot.MeteorLoot
+version: 1.8.5
+author: BlahBerrys
+load: POSTWORLD
+softdepend: [Vault, Factions, WorldEdit, WorldGuard, GriefPrevention, Towny]
+commands:
+  meteorloot:
+    description: MeteorLoot!
+    aliases: [meteor, ml, mloot]

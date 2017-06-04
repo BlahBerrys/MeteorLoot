@@ -9,7 +9,7 @@ public class Factions16x implements FactionsHook {
 
 	@Override
 	public boolean isFactionOffline(Location loc) {
-		Faction faction = Board.getInstance().getFactionAt(new FLocation(loc));
+		Faction faction = Board.getFactionAt(new FLocation(loc));
 		if (!faction.isNormal())
 			return false;
 		return faction.getOnlinePlayers().size() == 0;

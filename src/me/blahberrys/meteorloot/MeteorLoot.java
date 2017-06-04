@@ -53,14 +53,12 @@ public class MeteorLoot extends JavaPlugin {
 		player.sendMessage(Settings.getInstance().title + message);
 	}
 
-	@Override
 	public void onEnable() {
 		instance = this;
 		setupPlugin();
 		getServer().getConsoleSender().sendMessage(Settings.getInstance().title + "has been enabled!");
 	}
 
-	@Override
 	public void onDisable() {
 		TimeHandler.stopTimeHandler();
 		Data.save();

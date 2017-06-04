@@ -16,11 +16,10 @@ import me.blahberrys.meteorloot.Settings;
 import me.blahberrys.meteorloot.handlers.BlockHandler;
 import me.blahberrys.meteorloot.handlers.MeteorHandler;
 import me.blahberrys.meteorloot.utils.Selection;
-import net.minecraft.server.v1_10_R1.EntityEnderDragon;
-import net.minecraft.server.v1_10_R1.EntityLargeFireball;
-import net.minecraft.server.v1_10_R1.MinecraftServer;
-import net.minecraft.server.v1_10_R1.MovingObjectPosition;
-import net.minecraft.server.v1_10_R1.World;
+import net.minecraft.server.v1_8_R3.EntityEnderDragon;
+import net.minecraft.server.v1_8_R3.EntityLargeFireball;
+import net.minecraft.server.v1_8_R3.MovingObjectPosition;
+import net.minecraft.server.v1_8_R3.World;
 
 public class EntityMeteor extends EntityLargeFireball {
 
@@ -46,12 +45,18 @@ public class EntityMeteor extends EntityLargeFireball {
 	}
 
 	@Override
+	public void h() {
+		move();
+		super.h();
+	}
+	
+	/*
+	@Override
 	public MinecraftServer h() {
 		move();
 		return super.h();
 	}
 	
-	/*
 	 *
 	 @Override
 	public void h() {

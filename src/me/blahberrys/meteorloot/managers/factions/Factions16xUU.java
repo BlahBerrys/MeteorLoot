@@ -1,15 +1,16 @@
 package me.blahberrys.meteorloot.managers.factions;
 
-import com.massivecraft.factions.Board;
-import com.massivecraft.factions.FLocation;
-import com.massivecraft.factions.Faction;
 import org.bukkit.Location;
+
+import com.massivecraft.factions.entity.BoardColl;
+import com.massivecraft.factions.entity.Faction;
+import com.massivecraft.massivecore.ps.PS;
 
 public class Factions16xUU implements FactionsHook {
 
 	@Override
 	public boolean isFactionOffline(Location loc) {
-		Faction faction = Board.getInstance().getFactionAt(new FLocation(loc));
+		Faction faction = BoardColl.get().getFactionAt(PS.valueOf(loc));
 		if (!faction.isNormal())
 			return false;
 		return faction.getOnlinePlayers().size() == 0;

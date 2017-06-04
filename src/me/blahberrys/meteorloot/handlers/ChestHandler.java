@@ -10,7 +10,7 @@ import me.blahberrys.meteorloot.Settings;
 import me.blahberrys.meteorloot.meteor.Meteor;
 import me.blahberrys.meteorloot.utils.Schematic;
 import me.blahberrys.meteorloot.utils.SchematicUtils;
-import net.minecraft.server.v1_10_R1.TileEntityChest;
+import net.minecraft.server.v1_8_R3.TileEntityChest;
 
 import org.bukkit.Location;
 import org.bukkit.Material;

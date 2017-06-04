@@ -14,14 +14,14 @@ import me.blahberrys.meteorloot.handlers.TimeHandler;
 import me.blahberrys.meteorloot.utils.LocationUtil;
 import me.blahberrys.meteorloot.utils.SchematicUtils;
 import me.blahberrys.meteorloot.utils.Selection;
-import net.minecraft.server.v1_10_R1.EntityTypes;
+import net.minecraft.server.v1_8_R3.EntityTypes;
 
 import org.bukkit.Effect;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.bukkit.World;
-import org.bukkit.craftbukkit.v1_10_R1.CraftWorld;
+import org.bukkit.craftbukkit.v1_8_R3.CraftWorld;
 import org.bukkit.entity.Fireball;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitRunnable;
